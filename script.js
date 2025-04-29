@@ -13,8 +13,8 @@
   startButton.hidden = isSpun === "true";
   disableButton.hidden = isSpun !== "true";
 
-  const spinSound = new Audio("sounds/spin.mp3");
-  const finishSound = new Audio("sounds/finish.mp3");
+  const spinSound = new Audio("./sounds/spin.mp3");
+  const finishSound = new Audio("./sounds/finish.mp3");
 
   let deg = 0;
   let zoneSize = 60;
