@@ -13,8 +13,8 @@
   startButton.hidden = isSpun === "true";
   disableButton.hidden = isSpun !== "true";
 
-  const spinSound = new Audio("spin.wav");
-  const finishSound = new Audio("finish.wav");
+  const spinSound = new Audio("spin.mp3");
+  const finishSound = new Audio("finish.mp3");
 
   spinSound.load();
   finishSound.load();
