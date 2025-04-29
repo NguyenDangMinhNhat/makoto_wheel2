@@ -16,6 +16,9 @@
   const spinSound = new Audio("spin.wav");
   const finishSound = new Audio("finish.wav");
 
+  spinSound.load();
+  finishSound.load();
+
   let deg = 0;
   let zoneSize = 60;
 
