@@ -10,8 +10,8 @@
   }
 
   const isSpun = localStorage.getItem("isSpun");
-  startButton.hidden = isSpun === "true";
-  disableButton.hidden = isSpun !== "true";
+  //startButton.hidden = isSpun === "true";
+  //disableButton.hidden = isSpun !== "true";
 
   const spinSound = new Audio("spin.mp3");
   const finishSound = new Audio("finish.mp3");
